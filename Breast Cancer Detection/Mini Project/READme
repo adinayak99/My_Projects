@@ -1,1 +1,4 @@
-
+Applied Support Vector Machine classification algorithm on datasets to classify tumors into malignant
+(cancerous) or benign (non-cancerous) using features obtained via several cell images obtained from UCI ML
+repository.
+Tech: Python 3.6, Anaconda, Jupyter Notebook.
