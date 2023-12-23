@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="project styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Viz Project</title>
+  </head>
+  <body>
+    <center>
+        <div class="locked">
+            <h1>Crime Incident Analysis in Washington  DC</h1>
+            <h2> A DATS 6401: Data Visualization project</h2>
+           <!-- <h4>- By Aditya Nayak</h4> -->
+        </div>
+        <div style="margin-top: 194px;">
+            <p style="font-size: 16px;line-height: 1">
+                <b>By Aditya Nayak</b>
+            </p>
+            <p style="font-size: 16px;line-height: 0.1">
+                <b>Tue, November 21  2023</b>
+            </p>
+            <p style="font-size: 16px;line-height: 1">
+                <i>Washington D.C</i>
+            </p>
+            <h2>Outline:</h3>
+            <p>
+                The following reports illustrabtes about the crime incidents taken place in Washington D.C 
+                from the past 30 days. On February 1 2020, the methodology of geography assignments of crime 
+                data was modified to increase accuracy. From January 1 2020 going forward, all crime data will 
+                have Ward, ANC, SMD, BID, Neighborhood Cluster, Voting Precinct, Block Group and Census Tract 
+                values calculated prior to, rather than after, anonymization to the block level. This change 
+                impacts approximately one percent of Ward assignments. This change was not applied to datasets 
+                pre-2020.
+            </p>
+            <p>The dataset contains a subset of locations and attributes of incidents reported in the ASAP 
+                (Analytical Services Application) crime report database by the District of Columbia 
+                Metropolitan Police Department (MPD). Visit <a href='https://crimecards.dc.gov'>https://crimecards.dc.gov</a> 
+                for more information. 
+                This data is shared via an automated process where addresses are geocoded to the District's Master 
+                Address Repository and assigned to the appropriate street block. 
+                Block locations for some crime points could not be automatically assigned resulting in 0,0 for x,y 
+                coordinates. These can be interactively assigned using the <a href="https://mar2.data.dc.gov/">MAR Geocoder.</a> 
+            </p>
+
+            <p>
+                The data is collected by the DC Metropolitan Police Department. All statistics 
+                presented in Crime Cards are based on preliminary DC criminal code offense 
+                definitions. The data do not represent official statistics submitted to the FBI 
+                under the Uniform Crime Reporting program (UCR) or National Incident Based 
+                Reporting System (NIBRS). All preliminary offenses are coded based on DC criminal 
+                code and not the FBI offense classifications. Please understand that any 
+                comparisons between MPD preliminary data as published on this website and the 
+                official crime statistics published by the FBI under the Uniform Crime Reporting 
+                Program (UCR) are inaccurate and misleading. The MPD does not guarantee 
+                (either expressed or implied) the accuracy, completeness, timeliness, or correct 
+                sequencing of the information. The MPD will not be responsible for any error or 
+                omission, or for the use of, or the results obtained from the use of this 
+                information.
+            </p>
+        </div>
+        <div>
+            <!--This is the Datawrapper line graph-->
+            <iframe title="In the last 30 days (Oct 22 - Nov 21 2023) there has been rise in the number of crime incidents that have been reported to the MPD......." 
+                aria-label="Interactive line chart" 
+                id="datawrapper-chart-tpCTK" 
+                src="https://datawrapper.dwcdn.net/tpCTK/1/" 
+                scrolling="no" 
+                frameborder="0" 
+                style="width: 0; min-width: 100% !important; border: none;" 
+                height="450" 
+                data-external="1">
+            </iframe>
+            <script 
+                type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+            <br>
+            <br>
+            <br>
+
+            <!--This map is of all the crimes in DC-->
+            <iframe title="....with crimes incidents majorly focused in the vicinities of Downtown D.C, Adams Morgen, Capitol Hill, Georgetown, Mt Vernon Square &amp;amp; D.C. Chinatown...." 
+                aria-label="Map" 
+                id="datawrapper-chart-Rr4ks" 
+                src="https://datawrapper.dwcdn.net/Rr4ks/1/" 
+                scrolling="no" 
+                frameborder="0" 
+                style="width: 0; min-width: 100% !important; border: none;" 
+                height="775" 
+                data-external="1">
+            </iframe>
+            <script 
+                type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+            <br>
+            <br>
+            <br>
+
+            <!--This is the bar graph for show the time of crime-->
+            <iframe title=".... majority of which take place during working and post-working hours...." 
+                aria-label="Column Chart" 
+                id="datawrapper-chart-4Wm45" 
+                src="https://datawrapper.dwcdn.net/4Wm45/1/" 
+                scrolling="no" 
+                frameborder="0" 
+                style="width: 0; min-width: 100% !important; border: none;" 
+                height="400" 
+                data-external="1">
+            </iframe>
+            <script 
+                type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+            <br>
+            <br>
+            <br>
+
+            <iframe title="....with crime instances being intensely concentrated in central DC during all times of the day...." 
+                aria-label="Map" 
+                id="datawrapper-chart-uO1uH" 
+                src="https://datawrapper.dwcdn.net/uO1uH/1/" 
+                scrolling="no" 
+                frameborder="0" 
+                style="width: 0; min-width: 100% !important; border: none;" 
+                height="634" 
+                data-external="1">
+            </iframe>
+            <script 
+                type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+            <br>
+            <br>
+            <br>
+
+            <!-- Stacked bar chart showing crime distribution-->
+            <iframe title=".... among which automobile thefts, burglary and other theft related crimes are the most occurring...." 
+                aria-label="Stacked Columns" 
+                id="datawrapper-chart-ZH7Rz" 
+                src="https://datawrapper.dwcdn.net/ZH7Rz/1/" 
+                scrolling="no" 
+                frameborder="0" 
+                style="width: 0; min-width: 100% !important; border: none;" 
+                height="400" 
+                data-external="1">
+            </iframe>
+            <script 
+                type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+            <br>
+            <br>
+            <br>
+
+            <!--Bar chart showing hiring stats-->
+
+            <iframe title=".... One of the reasons for these high number of crimes could be due to the issue of understaffing...." 
+                aria-label="Column Chart" 
+                id="datawrapper-chart-0x4fF" 
+                src="https://datawrapper.dwcdn.net/0x4fF/3/" 
+                scrolling="no" 
+                frameborder="0" 
+                style="width: 0; min-width: 100% !important; border: none;" 
+                height="385" 
+                data-external="1">
+            </iframe>
+            <script 
+                type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+            <br>
+            <br>
+            <br>
+
+            <!--Multiple line chart showing leaving stats-->
+            <iframe title="....and with no vast change in the number of officers leaving the MPD, these continuing trends could result in problems such as understaffing &amp;amp; more crimes can be foreseen in the coming future." 
+                aria-label="Grouped Columns" 
+                id="datawrapper-chart-B20br" 
+                src="https://datawrapper.dwcdn.net/B20br/5/" 
+                scrolling="no" 
+                frameborder="0" 
+                style="width: 0; min-width: 100% !important; border: none;" 
+                height="450" 
+                data-external="1">
+            </iframe>
+            <script 
+                type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+        <div>
+            <p>In order to keep officers within the department and attract new recruits, the MPD can come up
+                with attractive benefits packages. For example, one issue, that police officers mentioned 
+                during the Community Engagement Academy (CEA) outreach programs is the challenging balance 
+                between work responsibilities and the profound responsibilities of parenthood. Some officers, 
+                specifically single parents, are currently facing unique challenges as they adjust to the 
+                demands of being new parents.
+            </p>
+            <p>
+                For them, the transition into parenthood has understandably impacted their ability 
+                to perform their regular duties at work. Balancing the demands of work alongside the 
+                responsibilities and care required for their new family members is an ongoing juggle.
+            </p>
+            <p>
+                By acknowledging and understanding these challenges, we can cultivate a more empathetic 
+                and supportive work environment that accommodates the diverse needs of our workforce, 
+                fostering an atmosphere where employees feel valued and supported during this significant 
+                life transition. A way to resolve this challenge would be introducing childcare services 
+                within the department to lend a helping hand and bring a work-life balance. 
+            </p>
+        </div>
+    </center>
+  </body>
+</html>
